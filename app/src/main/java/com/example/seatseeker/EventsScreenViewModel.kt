@@ -26,9 +26,9 @@ class EventScreenViewModel @Inject constructor(
     val state = _state.asStateFlow()
 
     sealed class State {
-        object Loading : State()
-        object Presenting : State()
-        object Error : State()
+       data object Loading : State()
+       data object Presenting : State()
+       data object Error : State()
     }
 
     fun onErrorDialogClosed() {
