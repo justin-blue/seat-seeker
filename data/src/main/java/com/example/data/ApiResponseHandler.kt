@@ -1,6 +1,5 @@
-package com.reallyhandyapps.data
+package com.example.data
 
-import com.example.data.DomainResult
 import kotlinx.coroutines.Deferred
 import retrofit2.Response
 

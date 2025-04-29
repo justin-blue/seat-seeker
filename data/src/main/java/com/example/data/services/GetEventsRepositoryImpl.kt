@@ -1,6 +1,6 @@
 package com.example.data.services
 
-import com.reallyhandyapps.data.ApiResponseHandler
+import com.example.data.ApiResponseHandler
 import com.example.data.DomainResult
 import com.example.data.EventEntity
 import com.example.data.Events
